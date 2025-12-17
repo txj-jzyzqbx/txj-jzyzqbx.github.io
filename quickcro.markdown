@@ -8,8 +8,15 @@ permalink: /quickocr/
 <section class="hero">
 <h1>即识 QuickOCR</h1>
 <p class="subtitle">快速 · 准确 · 免费的截图文字识别工具</p>
+  <div style="flex-shrink: 0;">
+    <img src="/assets/images/quickocrapp.png"
+         alt="即识截图菜单"
+         title="即识截图菜单"
+         style="width: 120px; border-radius: 12px;">
+  </div>
 <a class="btn" href="YOUR_DOWNLOAD_LINK">立即下载 v1.0.0</a>
 </section>
+
 
 
 <section>
@@ -44,11 +51,19 @@ permalink: /quickocr/
 <section>
 <h2>使用流程</h2>
 <ol>
-<li>启动 QuickOCR</li>
-<li>框选屏幕区域</li>
-<li>获取并复制识别文字</li>
+<li>下载并安装后，启动 QuickOCR</li>
+<li>框选需要识别的屏幕区域</li>
+<ul style="margin-bottom: 0;"   >
+  <li>也可通过 Ctrl + V 将图片粘贴到输入框</li>
+  <li >或打开软件的保存目录，直接查看截图图片</li>
+</ul>
+<li>如需识别文字，选择 文字识别 功能，等待识别完成</li>
+<li>识别结果将自动复制到 系统剪贴板，可直接粘贴使用</li>
 </ol>
 </section>
+
+
+![即识截图菜单](/assets/images/quickocrmenu.png "即识截图菜单")
 
 
 <section class="download">

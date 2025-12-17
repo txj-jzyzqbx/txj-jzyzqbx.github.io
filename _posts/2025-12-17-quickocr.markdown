@@ -6,14 +6,31 @@ categories: software ocr quickocr release
 ---
 
 
-即识 **QuickOCR** 是一款轻量、快速、免费的截图 OCR 工具，
-帮助你将屏幕中的文字快速转化为可复制、可编辑的文本。
+<div style="
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+">
+  <div style="flex: 1; min-width: 240px;">
+    <p>
+      即识 <strong>QuickOCR</strong> 是一款轻量、快速、免费的截图 OCR 工具，<br>
+      帮助你将屏幕中的文字快速转化为可复制、可编辑的文本。
+    </p>
+    <p>
+      本次发布为 <strong>v1.0.0 首个正式版本</strong>。
+    </p>
+  </div>
 
+  <div style="flex-shrink: 0;">
+    <img src="/assets/images/quickocrapp.png"
+         alt="即识截图菜单"
+         title="即识截图菜单"
+         style="width: 120px; border-radius: 12px;">
+  </div>
+</div>
 
-本次发布为 **v1.0.0 首个正式版本**。
-
-
----
 
 
 ## ✨ 本次版本亮点
@@ -56,11 +73,14 @@ categories: software ocr quickocr release
 ## 📌 使用方式
 
 
-1. 启动 QuickOCR
+1. 下载并安装后，启动 QuickOCR
 2. 框选需要识别的屏幕区域
-3. 等待识别完成
-4. 复制识别后的文字即可使用
+      - 也可通过 Ctrl + V 将图片粘贴到输入框
+      - 或打开软件的保存目录，直接查看截图图片
+3. 如需识别文字，选择 文字识别 功能，等待识别完成
+4. 识别结果将自动复制到 系统剪贴板，可直接粘贴使用
 
+![即识截图菜单](/assets/images/quickocrmenu.png "即识截图菜单")
 
 ---
 
